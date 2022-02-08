@@ -1,0 +1,1 @@
+select t.jersey_home_color,t.jersey_away_color from teams t where t.name = 'All Stars'

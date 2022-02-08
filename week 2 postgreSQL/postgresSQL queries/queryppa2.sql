@@ -1,0 +1,1 @@
+select t.name from teams t

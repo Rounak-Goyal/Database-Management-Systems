@@ -1,0 +1,1 @@
+select m.match_num from matches m where m.host_team_score > m.guest_team_score

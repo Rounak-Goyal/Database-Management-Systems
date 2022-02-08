@@ -1,0 +1,1 @@
+select m.student_fname,m.student_lname from students m where m.department_code = 'MCA' and m.dob > '2002-06-15'

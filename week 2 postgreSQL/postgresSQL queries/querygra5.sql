@@ -1,0 +1,1 @@
+select m.faculty_fname,m.faculty_lname from faculty m where m.department_code = 'CS'
