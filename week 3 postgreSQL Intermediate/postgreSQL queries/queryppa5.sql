@@ -1,0 +1,1 @@
+select m.student_fname,m.student_lname from students m,members n where m.roll_no = n.roll_no and n.member_type = 'PG'

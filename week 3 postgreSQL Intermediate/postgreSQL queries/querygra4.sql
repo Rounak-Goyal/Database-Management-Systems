@@ -1,0 +1,1 @@
+select student_fname, student_lname from students where roll_no in (select M.roll_no from members M, book_issue BI where M.member_no = BI.member_no)
